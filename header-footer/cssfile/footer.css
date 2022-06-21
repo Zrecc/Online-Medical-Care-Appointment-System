@@ -1,0 +1,45 @@
+
+* {
+    font-family: "Microsoft yahei";
+    margin: 0;
+}
+#footerbox {
+    position: relative;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footerehclogo {
+    height: 70px;
+    display: inline-block;
+}
+#footerlink>ul {
+    position: relative;
+    display: inline-block;
+    margin-right: 100px;
+    padding-left: 0px;
+}
+#mostright {
+    width: 0;
+}
+#footerbox li {
+    position: relative;
+    list-style-type: none;
+    display: block;
+    line-height: 45px;
+    width: 200px;
+}
+#footerlink a:not(#footerehclogo),
+a:visited {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: 0;
+    color: #275A84;
+} 
+#footerlink>ul>li>a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+

@@ -1,0 +1,95 @@
+/* Whole document style */
+* {
+    font-family: "Microsoft yahei";
+    margin: 0;
+}
+/* all link common style */
+a, a:visited {
+    text-decoration: none;
+    display: inline-block;
+    color:#275A84;
+}
+/* Header 1 style */
+.header1 {
+    height: 60px;
+    background-color: #2C2C2C;
+}
+.contactus, 
+.contactusdetails {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    left: 8%;
+    font-size: 14px;
+}
+.contactus {
+    line-height: 35px;
+    color: #96968F;
+}
+.contactusdetails {
+    line-height: 25px;
+    color: white;
+}
+.header1>a, .header1>a:visited {
+    position: absolute;
+    height: 60px;      
+    width: 180px;
+    line-height: 60px;
+    background-color: #275A84;            
+    text-align: center;
+    color: white;
+    right: 8%;
+}
+/* Header 2 style */
+.header2 {
+    background-color: white;
+    border-bottom: #96968F;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    height: 70px;
+}
+.header2>a {
+    display: inline;
+}
+#ehclogo, 
+.headernav {
+    display: inline-block;
+    height: 70px;
+}
+#ehclogo {
+    position: relative; 
+    width: 110px;
+    left: 8%;
+}
+.headernav {
+    position: absolute;
+    right: 8%;
+    line-height: 70px;
+}
+.headernav>a {
+    padding: 0px 20px;
+}
+.headernav a:hover{
+    background-color: lightgray;
+    color: black;
+}
+#fixedheader {
+    position: fixed;
+    width: 100%;
+}
+/* Appointment & medical service dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown a {
+    padding: 0px 20px;
+}
+#dropdown_content {
+    display: none;
+    position: absolute;
+}
+#dropdown_content>a {
+    display: block;
+}
+.dropdown:hover #dropdown_content {display: block;}
